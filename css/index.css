@@ -38,8 +38,13 @@ nav{
 
 
 
+.nav{
+    width: 70%;
+    justify-content: space-between;
+}
+
 .nav-list{
-    width:50%;
+    width:70%;
     justify-content: space-between;
 }
 
@@ -50,7 +55,7 @@ nav{
 
 .nav-login{
     justify-content: space-between;
-  width: 9%;
+  width: 15%;
   font-size: 18px;
 }
 
