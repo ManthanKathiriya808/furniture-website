@@ -30,7 +30,9 @@
         z-index: 5;
         font-size: 17px;
         left: 0;
+        text-align: center;
         margin: 0;
+    
     }
 
     .nav-list div{
@@ -38,13 +40,14 @@
         padding-bottom: 10px;
     }
     .nav-login div{
-        padding-top: 5px;
+        padding-top: 10px;
         padding-bottom: 5px;
     }
 
     .nav-login{
         top: 282px;
         z-index: 5;
+       
         left: 0;   
         font-size: 17px; 
         background-color: white;
@@ -111,6 +114,12 @@
 @media(min-width:776px){
     .nav-menu{
         display: none;
+    }
+    .nav-list{
+        display: flex !important;
+    }
+    .nav-login{
+        display: flex !important;
     }
 }
 

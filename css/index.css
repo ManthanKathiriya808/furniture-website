@@ -138,10 +138,22 @@ nav{
     background-color: #f89646;
     font-size: 18px;
 }
+.org-color:hover{
+    border:1px solid  #f89646;
+    color: #f89646;
+    background-color: transparent;
+
+}
 
 .blue-color{
     background-color: #6bb7be;
     font-size: 18px;
+}
+.blue-color:hover{
+    border:1px solid  #6bb7be;
+    color: #6bb7be;
+    background-color: transparent;
+
 }
 
 
@@ -234,6 +246,9 @@ nav{
     font-size: 17px;
 }
 
+
+
+
 .name h3{
     font-size: 18px;
     font-weight: 600;
@@ -301,6 +316,13 @@ nav{
     border: none;
 }
 
+.a-btn:hover button{
+    border:1px solid  #6bb7be;
+    color: #6bb7be;
+    background-color: transparent;
+
+}
+
 .price1{
     flex-direction: column;
     padding: 20px;
@@ -339,7 +361,7 @@ nav{
 
 .t-img{
     width: 25%;
-    height: 30vh;
+    height: 25%;
     padding: 12px 30px;
 }
 
@@ -437,6 +459,12 @@ form button{
     font-size: 20px;
 }
 
+.form-btn:hover{
+    border:1px solid  #6bb7be;
+    color: #6bb7be;
+    background-color: transparent;
+
+}
 
 footer{
     background-color: #191e1f;
@@ -538,6 +566,17 @@ footer{
     border: none;
 }
 
+
+.footer-btn:hover button{
+    border:1px solid  #6bb7be;
+    color: #6bb7be;
+    background-color: transparent;
+
+}
+
+
+
+
 .facebook i{
     padding: 10px;
     border: 2px solid #6bb7be;
@@ -566,6 +605,26 @@ footer{
     margin: 40px 0px;
    
 }
+
+
+.facebook:hover i{
+   background-color: #6bb7be;
+    color: #191e1f;
+  
+
+}
+
+.link1 :hover {
+    color: orange;
+}
+
+.link2 :hover {
+    color: orange;
+}
+.call :hover {
+    color: orange;
+}
+
 
 .feed{
     width: 100%;
@@ -602,5 +661,12 @@ footer{
     color: WHITE;
     border: none;
     background: #6bb7be;
+
+}
+
+.price-btn1:hover button{
+    border:1px solid  #6bb7be;
+    color: #6bb7be;
+    background-color: transparent;
 
 }
