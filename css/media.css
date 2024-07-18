@@ -6,6 +6,10 @@
         width: 100%;
     }
 
+    .mid{
+        width: 80% !important;
+    }
+
     .nav-menu{
         display: flex;
     }
@@ -193,6 +197,16 @@
     width: 50%;
   }
 }
+
+/* @media(max-width:1384px) {
+  
+    .boxes1{
+        width: 28% !important;
+        padding: 0px !important;
+    }
+    
+
+} */
 
 @media(max-width:425px) {
   .feeds{
