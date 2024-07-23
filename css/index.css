@@ -30,6 +30,13 @@ body{
     justify-content: center;
 }
 
+.slick-dots li button:before{
+    font-size: 40px !important;
+    color: #f89646 !important;
+    font-weight: 900 !important;
+}
+
+
 nav{
 
     justify-content: space-between;
